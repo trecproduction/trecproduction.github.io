@@ -1,0 +1,82 @@
+/* Overall Page */
+html {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+#gradientbg {
+  background: #deb100;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #deb100, #bf0301);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #deb100, #bf0301);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #deb100, #bf0301);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #deb100, #bf0301);
+  /* Standard syntax */
+  color: #ffffff;
+}
+
+/* Toolbar */
+
+header {
+  height: 56px;
+  width: 100%;
+  background-color: #212121;
+  position: fixed;
+  z-index: 100;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+#logoTitleContainer {
+  margin: auto;
+  height: 56px;
+  line-height: 56px;
+  display: inline-block;
+}
+
+#logoTitleContainer img {
+  height: 48px;
+  margin-top: 4px;
+  padding: 6px;
+  padding-left: 10px;
+  width: auto;
+  display: inline-block;
+}
+
+#logoTitleContainerT {
+  margin: auto;
+  height: 56px;
+  line-height: 56px;
+  display: inline-block;
+}
+
+#logoTitleContainerT img {
+  height: 48px;
+  margin-top: 4px;
+  padding: 6px;
+  width: auto;
+  display: inline-block;
+}
+
+#app {
+  height: 600px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
